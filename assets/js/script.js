@@ -10,4 +10,7 @@ var swiper = new Swiper(".heroSwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+
+    touchRatio: 0,
+    simulateTouch: false,
 });
