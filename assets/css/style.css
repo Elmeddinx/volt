@@ -6,6 +6,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  height: 600vh;
 }
 body.toyota-page {
   background-color: #0E0E0E;
@@ -64,7 +65,7 @@ body.toyota-page {
 @media only screen and (max-width: 768px) {
   .hero-section .swiper .swiper-slide__overlay-container {
     width: 100%;
-    padding: 0 25px;
+    padding: 0 12.5px;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -174,7 +175,7 @@ body.toyota-page {
 }
 @media only screen and (max-width: 768px) {
   .section-2 {
-    padding: 80px 25px;
+    padding: 80px 12.5px;
   }
 }
 .section-2__container {
@@ -242,4 +243,185 @@ body.toyota-page {
   .section-2__right-inner p {
     font-size: 14px;
   }
+}
+
+.section-3 {
+  width: 100%;
+  padding-right: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .section-3 {
+    padding-right: 0;
+  }
+}
+.section-3__container {
+  width: 100%;
+}
+.section-3__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .section-3__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+.section-3__left {
+  max-width: 635px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-3__left {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-3__left {
+    width: 100%;
+  }
+}
+.section-3__left-inner {
+  width: 100%;
+}
+.section-3__left-inner img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.section-3__right {
+  max-width: 665px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-3__right {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-3__right {
+    width: 100%;
+    padding: 0 12.5px;
+  }
+}
+.section-3__right-inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+.section-3__right-inner h3 {
+  color: #ff8a00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px) {
+  .section-3__right-inner h3 {
+    font-size: 30px;
+  }
+}
+.section-3__right-inner p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 240%;
+  text-transform: uppercase;
+}
+
+.section-4 {
+  width: 100%;
+  padding-left: 80px;
+  margin-top: 65px;
+}
+@media only screen and (max-width: 768px) {
+  .section-4 {
+    padding-left: 0;
+  }
+}
+.section-4__container {
+  width: 100%;
+}
+.section-4__row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .section-4__row {
+    flex-direction: column-reverse;
+    row-gap: 30px;
+  }
+}
+.section-4__left {
+  max-width: 665px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-4__left {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-4__left {
+    width: 100%;
+    padding: 0 12.5px;
+  }
+}
+.section-4__left-inner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+}
+.section-4__left-inner h3 {
+  color: #ff8a00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px) {
+  .section-4__left-inner h3 {
+    font-size: 30px;
+  }
+}
+.section-4__left-inner p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 240%;
+  text-transform: uppercase;
+}
+.section-4__right {
+  max-width: 635px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-4__right {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-4__right {
+    width: 100%;
+  }
+}
+.section-4__right-inner {
+  width: 100%;
+}
+.section-4__right-inner img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }/*# sourceMappingURL=style.css.map */

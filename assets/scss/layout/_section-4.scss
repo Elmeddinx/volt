@@ -1,34 +1,37 @@
-.section-2 {
+.section-4 {
     width: 100%;
-    padding: 120px 80px;
-    @include mq(desktop-up) {
-        padding: 120px 40px;
-    }
+    padding-left: 80px;
+    margin-top: 65px;
     @include mq(tablet-portrait-up) {
-        padding: 80px 12.5px;
+        padding-left: 0;
     }
-
     &__container {
         width: 100%;
     }
     &__row {
         width: 100%;
         display: flex;
+        align-items: center;
         justify-content: space-between;
+        column-gap: 60px;
         @include mq(tablet-portrait-up) {
-            flex-direction: column;
+            flex-direction: column-reverse;
             row-gap: 30px;
         }
     }
     &__left {
-        max-width: 648px;
+        max-width: 665px;
         @include mq(desktop-up) {
             width: 45%;
         }
         @include mq(tablet-portrait-up) {
             width: 100%;
+            padding: 0 12.5px;
         }
         &-inner {
+            display: flex;
+            flex-direction: column;
+            row-gap: 34px;
             h3 {
                 color: #ff8a00;
                 font-size: 36px;
@@ -40,10 +43,18 @@
                     font-size: 30px;
                 }
             }
+            p {
+                color: #fff;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 240%;
+                text-transform: uppercase;
+            }
         }
     }
     &__right {
-        max-width: 517px;
+        max-width: 635px;
         @include mq(desktop-up) {
             width: 45%;
         }
@@ -51,16 +62,11 @@
             width: 100%;
         }
         &-inner {
-            p {
-                color: #fff;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: 240%;
-                text-transform: uppercase;
-                @include mq(desktop-up) {
-                    font-size: 14px;
-                }
+            width: 100%;
+            img {
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
             }
         }
     }
