@@ -46,6 +46,9 @@
                         width: 100%;
                         padding: 0 25px;
                     }
+                    @include mq(big-desktop-up) {
+                        width: 70%;
+                    }
                 }
                 &-title {
                     color: #fff;
@@ -84,6 +87,8 @@
                     font-weight: 700;
                     line-height: 200%;
                     border: none;
+                    outline: none;
+                    cursor: pointer;
                 }
                 &-footer {
                     position: absolute;

@@ -7,6 +7,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+body.toyota-page {
+  background-color: #0E0E0E;
+}
 
 .hero-section {
   width: 100%;
@@ -64,6 +67,11 @@ body {
     padding: 0 25px;
   }
 }
+@media only screen and (min-width: 1440px) {
+  .hero-section .swiper .swiper-slide__overlay-container {
+    width: 70%;
+  }
+}
 .hero-section .swiper .swiper-slide__overlay-title {
   color: #fff;
   font-size: 39px;
@@ -105,6 +113,8 @@ body {
   font-weight: 700;
   line-height: 200%;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 .hero-section .swiper .swiper-slide__overlay-footer {
   position: absolute;
@@ -146,4 +156,85 @@ body {
 .hero-section .swiper .swiper-pagination-bullet-active {
   background-color: #ff8a00;
   border: none;
+}
+
+.section-2 {
+  width: 100%;
+  padding: 120px 80px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-2 {
+    padding: 120px 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-2 {
+    padding: 80px 25px;
+  }
+}
+.section-2__container {
+  width: 100%;
+}
+.section-2__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .section-2__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+.section-2__left {
+  max-width: 648px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-2__left {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-2__left {
+    width: 100%;
+  }
+}
+.section-2__left-inner h3 {
+  color: #ff8a00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px) {
+  .section-2__left-inner h3 {
+    font-size: 30px;
+  }
+}
+.section-2__right {
+  max-width: 517px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-2__right {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-2__right {
+    width: 100%;
+  }
+}
+.section-2__right-inner p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 240%;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px) {
+  .section-2__right-inner p {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=style.css.map */
