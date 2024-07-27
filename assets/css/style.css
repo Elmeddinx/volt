@@ -104,6 +104,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 200%;
+  border: none;
 }
 .hero-section .swiper .swiper-slide__overlay-footer {
   position: absolute;
