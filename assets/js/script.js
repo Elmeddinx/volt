@@ -1,7 +1,7 @@
 var swiper = new Swiper(".heroSwiper", {
     direction: "vertical",
-    // mousewheel: true,
-    loop: true,
+    mousewheel: true,
+    loop: false,
     autoplay: {
         delay: 2500,
         disableOnInteraction: false,
@@ -11,6 +11,6 @@ var swiper = new Swiper(".heroSwiper", {
         clickable: true,
     },
 
-    touchRatio: 0,
-    simulateTouch: false,
+    // touchRatio: 0,
+    // simulateTouch: false,
 });
