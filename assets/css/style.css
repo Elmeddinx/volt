@@ -424,4 +424,39 @@ body.toyota-page {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.section-5 {
+  width: 100%;
+  padding-left: 80px;
+  margin-top: 120px;
+}
+@media only screen and (max-width: 768px) {
+  .section-5 {
+    padding-left: 12.5px;
+  }
+}
+.section-5__container .Section5Swiper.swiper {
+  width: 100%;
+  height: 100%;
+}
+.section-5__container .Section5Swiper.swiper .swiper-slide {
+  height: 391px;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  .section-5__container .Section5Swiper.swiper .swiper-slide {
+    height: 300px;
+  }
+}
+.section-5__container .Section5Swiper.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

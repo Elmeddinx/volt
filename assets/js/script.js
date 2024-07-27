@@ -24,3 +24,24 @@ if (isMobileDevice()) {
         e.stopPropagation();
     }, { passive: true });
 }
+
+var swiper = new Swiper(".Section5Swiper", {
+    slidesPerView: 2.2,
+    spaceBetween: 15,
+    loop: true,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 1.2
+        },
+        768: {
+          slidesPerView: 1.7,
+        },
+        1024: {
+          slidesPerView: 2.2,
+        },
+      },
+});
