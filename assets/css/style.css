@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+}
+.hero-section__container {
+  width: 100%;
+  height: 100%;
+}
+.hero-section .swiper {
+  width: 100%;
+  height: 100%;
+}
+.hero-section .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.hero-section .swiper .swiper-slide__img {
+  width: 100%;
+  height: 100%;
+}
+.hero-section .swiper .swiper-slide__img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.hero-section .swiper .swiper-slide__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hero-section .swiper .swiper-slide__overlay-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 70px;
+}
+@media only screen and (max-width: 768px) {
+  .hero-section .swiper .swiper-slide__overlay-container {
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+.hero-section .swiper .swiper-slide__overlay-title {
+  color: #fff;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 480px) {
+  .hero-section .swiper .swiper-slide__overlay-title {
+    font-size: 30px;
+  }
+}
+.hero-section .swiper .swiper-slide__overlay-desc {
+  width: 70%;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 16px 0 40px 0;
+}
+@media only screen and (max-width: 768px) {
+  .hero-section .swiper .swiper-slide__overlay-desc {
+    width: 100%;
+  }
+}
+.hero-section .swiper .swiper-slide__overlay-btn {
+  width: 136px;
+  height: 61px;
+  border-radius: 8px;
+  background: #fbb040;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 200%;
+}
+.hero-section .swiper .swiper-slide__overlay-footer {
+  position: absolute;
+  bottom: 60px;
+  right: 100px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .hero-section .swiper .swiper-slide__overlay-footer {
+    width: 70%;
+    bottom: 60px;
+    right: 25px;
+  }
+}
+.hero-section .swiper .swiper-slide__overlay-footer__line {
+  width: 100%;
+  height: 3px;
+  background-color: #FBB040;
+}
+.hero-section .swiper .swiper-slide__overlay-footer__title {
+  color: #FFF;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.hero-section .swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  margin: var(--swiper-pagination-bullet-vertical-gap, 40px) 0;
+}
+.hero-section .swiper .swiper-pagination-bullet-active {
+  background-color: #ff8a00;
+  border: none;
+}/*# sourceMappingURL=style.css.map */
