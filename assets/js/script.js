@@ -10,7 +10,13 @@ var swiper = new Swiper(".heroSwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
-
+    on: {
+        reachEnd: function() {
+          var content = document.querySelector('.section-2');
+          content.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
     // touchRatio: 0,
     // simulateTouch: false,
 });
+
