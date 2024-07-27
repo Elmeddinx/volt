@@ -286,6 +286,7 @@ body.toyota-page {
 }
 .section-3__left-inner {
   width: 100%;
+  position: relative;
 }
 .section-3__left-inner img {
   width: 100%;
@@ -293,6 +294,14 @@ body.toyota-page {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+.section-3__left-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 .section-3__right {
   max-width: 665px;
@@ -417,6 +426,7 @@ body.toyota-page {
 }
 .section-4__right-inner {
   width: 100%;
+  position: relative;
 }
 .section-4__right-inner img {
   width: 100%;
@@ -424,6 +434,14 @@ body.toyota-page {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+.section-4__right-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
 }
 
 .section-5 {
@@ -447,6 +465,7 @@ body.toyota-page {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 @media only screen and (max-width: 768px) {
   .section-5__container .Section5Swiper.swiper .swiper-slide {
@@ -459,4 +478,12 @@ body.toyota-page {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.section-5__container .Section5Swiper.swiper .swiper-slide-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.25);
 }/*# sourceMappingURL=style.css.map */
