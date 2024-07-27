@@ -20,7 +20,7 @@ var swiper = new Swiper('.heroSwiper', heroSwiperConfig);
 
 if (isMobileDevice()) {
     swiper.allowTouchMove = true;
-    document.querySelector('.swiper-container').addEventListener('touchstart', function (e) {
+    document.querySelector('.heroSwiper').addEventListener('touchstart', function (e) {
         e.stopPropagation();
     }, { passive: true });
 }

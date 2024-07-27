@@ -130,6 +130,10 @@
                 background-color: #ff8a00;
                 border: none;
             }
+            
+            @include mq(tablet-portrait-up) {
+                margin: var(--swiper-pagination-bullet-vertical-gap, 20px) 10px;
+            }
         }
     }
 }
