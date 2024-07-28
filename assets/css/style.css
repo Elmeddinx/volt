@@ -651,4 +651,85 @@ body.toyota-page {
     width: 10px;
     height: 10px;
   }
+}
+
+.section-8 {
+  width: 100%;
+  padding: 120px 80px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-8 {
+    padding: 120px 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-8 {
+    padding: 80px 12.5px;
+  }
+}
+.section-8__container {
+  width: 100%;
+}
+.section-8__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .section-8__row {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}
+.section-8__left {
+  max-width: 648px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-8__left {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-8__left {
+    width: 100%;
+  }
+}
+.section-8__left-inner h3 {
+  color: #ff8a00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px) {
+  .section-8__left-inner h3 {
+    font-size: 30px;
+  }
+}
+.section-8__right {
+  max-width: 517px;
+}
+@media only screen and (max-width: 1200px) {
+  .section-8__right {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-8__right {
+    width: 100%;
+  }
+}
+.section-8__right-inner p {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1200px) {
+  .section-8__right-inner p {
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=style.css.map */
