@@ -9,6 +9,7 @@ body {
 }
 body.toyota-page {
   background-color: #0E0E0E;
+  position: relative;
 }
 
 .hero-section {
@@ -782,4 +783,53 @@ body.toyota-page {
   top: 0;
   left: 0;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+
+.bgoutline-texts {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+  .bgoutline-texts {
+    display: none;
+  }
+}
+.bgoutline-texts .bgoutline-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 138, 0, 0.18);
+}
+.bgoutline-texts .bgoutline-text1 {
+  position: absolute;
+  top: 255px;
+  right: 70px;
+}
+.bgoutline-texts .bgoutline-text2 {
+  position: absolute;
+  top: 1010px;
+  left: 70px;
+}
+.bgoutline-texts .bgoutline-text3 {
+  position: absolute;
+  top: 2500px;
+  left: 70px;
+}
+.bgoutline-texts .bgoutline-text4 {
+  position: absolute;
+  top: 3900px;
+  left: 70px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .bgoutline-texts .bgoutline-text4 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
