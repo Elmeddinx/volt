@@ -3,6 +3,7 @@
     padding-left: 80px;
     margin-top: 120px;
     @include mq(tablet-portrait-up) {
+        margin-top: 60px;
         padding-left: 12.5px;
     }
     &__container {

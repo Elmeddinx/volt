@@ -1,0 +1,55 @@
+.section-7 {
+    margin-top: 180px;
+    padding: 0 80px;
+    @include mq(tablet-portrait-up) {
+        padding: 0 12.5px;
+        margin-top: 90px;
+    }
+    &__container {
+        .Section7Swiper {
+            &.swiper {
+                width: 100%;
+                height: 100%;
+                .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+                .swiper-slide img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                .swiper-pagination {
+                    bottom: var(--swiper-pagination-bottom,35px);
+                    @include mq(tablet-portrait-up) {
+                        bottom: var(--swiper-pagination-bottom,20px);
+                    }
+
+                }
+                .swiper-pagination-bullet {
+                    width: 18px;
+                    height: 18px;
+                    border: 2px solid #fff;
+                    background-color: transparent;
+                    margin: var(--swiper-pagination-bullet-vertical-gap, 0px) 13px;
+                    &-active {
+                        background-color: #ff8a00;
+                        border: none;
+                    }
+                    @include mq(tablet-portrait-up) {
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+        }
+
+        
+    }
+}

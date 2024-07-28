@@ -451,6 +451,7 @@ body.toyota-page {
 }
 @media only screen and (max-width: 768px) {
   .section-5 {
+    margin-top: 60px;
     padding-left: 12.5px;
   }
 }
@@ -490,13 +491,12 @@ body.toyota-page {
 
 .section-6 {
   margin-top: 180px;
-}
-.section-6__container {
   padding: 0 80px;
 }
 @media only screen and (max-width: 768px) {
-  .section-6__container {
+  .section-6 {
     padding: 0 12.5px;
+    margin-top: 90px;
   }
 }
 .section-6__title {
@@ -562,7 +562,7 @@ body.toyota-page {
 }
 .section-6__table-cell {
   display: table-cell;
-  padding: 10px;
+  padding: 10px 0;
   border-bottom: 1px solid #fff;
   font-style: normal;
   font-weight: 400;
@@ -595,5 +595,60 @@ body.toyota-page {
 @media only screen and (max-width: 380px) {
   .section-6__table-cell.desc {
     font-size: 16px;
+  }
+}
+
+.section-7 {
+  margin-top: 180px;
+  padding: 0 80px;
+}
+@media only screen and (max-width: 768px) {
+  .section-7 {
+    padding: 0 12.5px;
+    margin-top: 90px;
+  }
+}
+.section-7__container .Section7Swiper.swiper {
+  width: 100%;
+  height: 100%;
+}
+.section-7__container .Section7Swiper.swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-7__container .Section7Swiper.swiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section-7__container .Section7Swiper.swiper .swiper-pagination {
+  bottom: var(--swiper-pagination-bottom, 35px);
+}
+@media only screen and (max-width: 768px) {
+  .section-7__container .Section7Swiper.swiper .swiper-pagination {
+    bottom: var(--swiper-pagination-bottom, 20px);
+  }
+}
+.section-7__container .Section7Swiper.swiper .swiper-pagination-bullet {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  margin: var(--swiper-pagination-bullet-vertical-gap, 0px) 13px;
+}
+.section-7__container .Section7Swiper.swiper .swiper-pagination-bullet-active {
+  background-color: #ff8a00;
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .section-7__container .Section7Swiper.swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

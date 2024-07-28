@@ -1,10 +1,9 @@
 .section-6 {
     margin-top: 180px;
-    &__container {
-        padding: 0 80px;
-        @include mq(tablet-portrait-up) {
-            padding: 0 12.5px;
-        }
+    padding: 0 80px;
+    @include mq(tablet-portrait-up) {
+        padding: 0 12.5px;
+        margin-top: 90px;
     }
     &__title {
         color: #ff8a00;
@@ -36,7 +35,7 @@
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
-        
+
         @include mq(tablet-portrait-up) {
             flex-direction: column;
         }
@@ -59,14 +58,14 @@
         }
         &-cell {
             display: table-cell;
-            padding: 10px;
+            padding: 10px 0;
             border-bottom: 1px solid #fff;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
             text-transform: capitalize;
             color: rgba(255, 255, 255, 0.8);
-            &.title {   
+            &.title {
                 font-size: 25px;
                 @include mq(phone-only) {
                     font-size: 22px;
