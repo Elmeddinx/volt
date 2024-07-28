@@ -1,0 +1,90 @@
+.section-6 {
+    margin-top: 180px;
+    &__container {
+        padding: 0 80px;
+        @include mq(tablet-portrait-up) {
+            padding: 0 12.5px;
+        }
+    }
+    &__title {
+        color: #ff8a00;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        @include mq(phone-only) {
+            font-size: 30px;
+        }
+        @include mq(phone-sm) {
+            font-size: 26px;
+        }
+    }
+    &__desc {
+        color: #fff;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+        @include mq(phone-only) {
+            font-size: 20px;
+        }
+    }
+    &__row {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        
+        @include mq(tablet-portrait-up) {
+            flex-direction: column;
+        }
+        &-col {
+            width: 45%;
+            @include mq(tablet-portrait-up) {
+                width: 100%;
+            }
+        }
+    }
+    &__table {
+        display: table;
+        border-collapse: collapse;
+        width: 100%;
+        &-row {
+            display: table-row;
+            &:last-child .cell {
+                border-bottom: none;
+            }
+        }
+        &-cell {
+            display: table-cell;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+            color: rgba(255, 255, 255, 0.8);
+            &.title {   
+                font-size: 25px;
+                @include mq(phone-only) {
+                    font-size: 22px;
+                }
+                @include mq(phone-sm) {
+                    font-size: 18px;
+                }
+            }
+            &.desc {
+                font-size: 23px;
+                text-align: right;
+                @include mq(phone-only) {
+                    font-size: 20px;
+                }
+                @include mq(phone-sm) {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

@@ -486,4 +486,114 @@ body.toyota-page {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.25);
+}
+
+.section-6 {
+  margin-top: 180px;
+}
+.section-6__container {
+  padding: 0 80px;
+}
+@media only screen and (max-width: 768px) {
+  .section-6__container {
+    padding: 0 12.5px;
+  }
+}
+.section-6__title {
+  color: #ff8a00;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 480px) {
+  .section-6__title {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .section-6__title {
+    font-size: 26px;
+  }
+}
+.section-6__desc {
+  color: #fff;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 480px) {
+  .section-6__desc {
+    font-size: 20px;
+  }
+}
+.section-6__row {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 768px) {
+  .section-6__row {
+    flex-direction: column;
+  }
+}
+.section-6__row-col {
+  width: 45%;
+}
+@media only screen and (max-width: 768px) {
+  .section-6__row-col {
+    width: 100%;
+  }
+}
+.section-6__table {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+.section-6__table-row {
+  display: table-row;
+}
+.section-6__table-row:last-child .cell {
+  border-bottom: none;
+}
+.section-6__table-cell {
+  display: table-cell;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+}
+.section-6__table-cell.title {
+  font-size: 25px;
+}
+@media only screen and (max-width: 480px) {
+  .section-6__table-cell.title {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .section-6__table-cell.title {
+    font-size: 18px;
+  }
+}
+.section-6__table-cell.desc {
+  font-size: 23px;
+  text-align: right;
+}
+@media only screen and (max-width: 480px) {
+  .section-6__table-cell.desc {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .section-6__table-cell.desc {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
